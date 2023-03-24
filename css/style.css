@@ -1,0 +1,48 @@
+body{
+    background-image: url(/images/Main/main.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.jumbotron{
+    background-color: transparent!important;
+    background-image: url(/images/Hero-banner/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.card1{
+    background-image: url(/images/work/study.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card2{
+    background-image: url(/images/work/marketing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card3{
+    background-image: url(/images/work/e-comerce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card4{
+    background-image: url(/images/work/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card5{
+    background-image: url(/images/work/calculator.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
