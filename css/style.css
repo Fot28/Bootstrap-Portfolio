@@ -24,3 +24,7 @@ body{
 .skill-card{
     max-width: 8rem;
 }
+
+.card-about-contact{
+    max-width: 30rem;
+}

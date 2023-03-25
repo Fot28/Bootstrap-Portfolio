@@ -160,22 +160,47 @@
         <!-- About me and contact form section -->
         <section class="container-fluid" id="about/contact">
             <div class="row justify-content-around text-center">
-                <div class="card col-lg-5 col-md-6 col-sm-10 col-xs-10 m-3" id="about">
+                <div class="card card-about-contact col-lg-5 col-md-6 col-sm-10 col-xs-10 m-3 p-0" id="about">
                     <h2 class="card-header border-bottom pb-4">About me</h2>
-                    <p class="lead ">
+                    <p class="lead">
                         Hello, I'm Fotios Polymenakos, a student web developer currently 
                         learning and building my skills in HTML, CSS, JavaScript, and Git. 
                         I've completed a pre-work study project where I gained a solid foundation 
                         in web development basics. As a second project, I worked on rebuilding 
                         a customer website, applying best practices such as semantic HTML, 
                         logical structure, accessible alt attributes, sequential heading attributes, 
-                        and a concise title element.
+                        and a concise title element.<br>
+                        I'm eager to continue growing as a web developer and taking on new 
+                        challenges. Collaboration and communication are key to creating successful
+                        websites, and I'm dedicated to working closely with clients to ensure their 
+                        needs are met. Please feel free to reach out if you're interested in seeing 
+                        my work or collaborating on a project. Thank you for considering my portfolio!
                     </p>
                 </div>
-                <div class="card col-lg-5 col-md-6 col-sm-10 col-xs-10 m-3" id="contact">
+                <div class="card card-about-contact  col-lg-5 col-md-6 col-sm-10 col-xs-10 m-3 p-0" id="contact">
                     <h2 class="card-header text-center border-bottom pb-4">Contact me</h2>
-                    <div>
-                        
+                    <div class="card-body">
+                        <form class="col text-left">
+                            <div class="m-1 mb-3">
+                                <label for="Name">Name</label>
+                                <input type="text" class="form-control" placeholder="John Doe">
+                            </div>
+                            <div class="m-1 mb-3">
+                                <label for="Email">Email</label>
+                                <input type="email" class="form-control" placeholder="johndoe@mail.com">
+                            </div>
+                            <div class="m-1 mb-3">
+                                <label for="Telephone">Telephone</label>
+                                <input type="p" class="form-control" placeholder="+44 (0) 1234567890">
+                            </div>
+                            <div class="m-1 mb-3">
+                                <label for="Textarea">Message</label>
+                                <textarea class="form-control" placeholder="Required example textarea" required></textarea>
+                            </div>
+                            <div class="text-right mt-5">
+                                <button type="submit" class="btn btn-primary">Submit form</button>
+                            </div>                        
+                        </form>   
                     </div>
                 </div>
             </div>
