@@ -6,16 +6,28 @@ body{
     background-attachment: fixed;
 }
 
-
-
-/* .jumbotron{
+.jumbotron{
     background-image: url(/images/Hero-banner/Banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
- */
+
+.jumbotron-text{
+    color: rgb(255, 0, 242);
+}
 
 .card-header{
     color: rgb(185, 118, 31);
 }
+
+.card{
+    max-width: 17rem;
+}
+
+/* I wasn't able to over-ride it with bootstrap classes on small devices */
+@media (max-width: 425px) {
+    .prof-avatar {
+      max-width: 70%;
+    }
+ }
