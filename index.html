@@ -13,128 +13,129 @@
     <title>Bootstrap Portfolio</title>
 </head>
 <body>
-    <!-- Navigation bar and menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><h1>Portfolio</h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#work">Work</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#about/contact">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#about/contact">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
-    <!-- End Navigation bar and menu -->
+    <header>   
+        <!-- Navigation bar and menu -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><h1>Portfolio</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about/contact">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about/contact">Contact Me</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <!-- End Navigation bar and menu -->
+    </header>
+    <main>
+        <!-- Hero section -->
+        <section class="jumbotron">
+            <div class="container-fluid row justify-content-between align-items-center text-center">
+            <div class="col-xl-4 col-lg-5 col-md-4 col-sm-6 d-flex justify-content-center">
+                <img class="prof-avatar img-fluid" src="/images/Hero-banner/avatar.png" alt="Profile picture">
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-5 text-lg-right text-md-right p-lg-5 p-sm-3">
+                <h2 class="display-4 text-white">Fotios</h2>
+                <p class="lead text-white">This is a Portfolio website where i can showcase my work, skills and how to get in contact with me.</p>
+            </div>
+            </div>
+        </section>
+        <!-- End Hero section -->
 
 
-    <!-- Hero section -->
-    <div class="jumbotron">
-        <div class="container-fluid row justify-content-between align-items-center text-center">
-          <div class="col-xl-4 col-lg-5 col-md-4 col-sm-6 d-flex justify-content-center">
-             <img class="prof-avatar img-fluid" src="/images/Hero-banner/avatar.png" alt="Profile picture">
-          </div>
-          <div class="col-xl-7 col-lg-7 col-md-7 col-sm-5 text-lg-right text-md-right p-lg-5 p-sm-3">
-             <h2 class="display-4 text-white">Fotios</h2>
-             <p class="lead text-white">This is a Portfolio website where i can showcase my work, skills and how to get in contact with me.</p>
-          </div>
-        </div>
-    </div>
-    <!-- End Hero section -->
-
-
-    <!-- Work section -->
-    <div class="container-fluid work" id="work">
-        <h2 class="text-white text-center border-bottom pb-4">Work</h2>
-        <div class="row justify-content-around align-content-around ml-2 mr-2">
-            <div class="card col-xl-3 col-lg-4 col-md-5 col-sm-10 text-center text-white bg-transparent border-0 ">
-                <h4 class="card-header border-0">Study guide</h4>
-                <h6>HTML/CSS/JavaScript</h6>
-                <div class="card-body  card4 p-0">
-                    <img src="/images/work/study.jpg" class="card-img" alt="...">
-                    <a href="https://fot28.github.io/prework-study-guide/" target="_blank" class="btn btn-danger m-2">Check it out</a>
+        <!-- Work section -->
+        <section class="container-fluid work" id="work">
+            <h2 class="text-white text-center border-bottom pb-4">Work</h2>
+            <div class="row justify-content-around align-content-around ml-2 mr-2">
+                <div class="card col-xl-3 col-lg-4 col-md-5 col-sm-10 text-center text-white bg-transparent border-0 ">
+                    <h4 class="card-header border-0">Study guide</h4>
+                    <h6>HTML/CSS/JavaScript</h6>
+                    <div class="card-body  card4 p-0">
+                        <img src="/images/work/study.jpg" class="card-img" alt="...">
+                        <a href="https://fot28.github.io/prework-study-guide/" target="_blank" class="btn btn-danger m-2">Check it out</a>
+                    </div>
+                </div>
+                <div class="card col-xl-3 col-lg-4 col-md-5 col-sm-10 text-center text-white bg-transparent border-0 ">
+                    <h4 class="card-header border-0">Marketing agency</h4>
+                    <h6>HTML/CSS</h6>
+                    <div class="card-body  card4 p-0">
+                        <img src="/images/work/marketing.jpg" class="card-img" alt="...">
+                        <a href="https://fot28.github.io/challenge1/" target="_blank" class="btn btn-danger m-2">Check it out</a>
+                    </div>
+                </div>
+                <div class="card col-xl-3 col-lg-4 col-md-5 col-sm-10 text-center text-white bg-transparent border-0 ">
+                    <h4 class="card-header border-0">Portfolio</h4>
+                    <h6>HTML/CSS</h6>
+                    <div class="card-body  card4 p-0">
+                        <img src="/images/work/portfolio.jpg" class="card-img" alt="...">
+                        <a href="https://fot28.github.io/Week-2-challenge/" target="_blank" class="btn btn-danger m-2">Check it out</a>
+                    </div>
+                </div>
+                <div class="card col-xl-3 col-lg-4 col-md-5 col-sm-10 text-center text-white bg-transparent border-0 ">
+                    <h4 class="card-header border-0">Coming soon</h4>
+                    <h6>Coming soon</h6>
+                    <div class="card-body  card4 p-0">
+                        <img src="/images/work/e-comerce.jpg" class="card-img" alt="...">
+                        <a href="#" target="_blank" class="btn btn-danger m-2">Check it out</a>
+                    </div>
+                </div>
+                <div class="card col-xl-3 col-lg-4 col-md-5 col-sm-10 text-center text-white bg-transparent border-0 ">
+                    <h4 class="card-header border-0">Coming soon</h4>
+                    <h6>Coming soon</h6>
+                    <div class="card-body  card4 p-0">
+                        <img src="/images/work/login.jpg" class="card-img" alt="...">
+                        <a href="#" target="_blank" class="btn btn-danger m-2">Check it out</a>
+                    </div>
+                </div>
+                <div class="card col-xl-3 col-lg-4 col-md-5 col-sm-10 text-center text-white bg-transparent border-0 ">
+                    <h4 class="card-header border-0">Coming soon</h4>
+                    <h6>Coming soon</h6>
+                    <div class="card-body  card4 p-0">
+                        <img src="/images/work/calculator.jpg" class="card-img" alt="...">
+                        <a href="#" target="_blank" class="btn btn-danger m-2">Check it out</a>
+                    </div>
                 </div>
             </div>
-            <div class="card col-xl-3 col-lg-4 col-md-5 col-sm-10 text-center text-white bg-transparent border-0 ">
-                <h4 class="card-header border-0">Marketing agency</h4>
-                <h6>HTML/CSS</h6>
-                <div class="card-body  card4 p-0">
-                    <img src="/images/work/marketing.jpg" class="card-img" alt="...">
-                    <a href="https://fot28.github.io/challenge1/" target="_blank" class="btn btn-danger m-2">Check it out</a>
-                </div>
+        </section>
+        <!-- End Work section -->
+
+
+        <!-- Skills section -->
+        <section class="container-fluid" id="skills">
+            <div class="row justify-content-around align-content-around ml-2 mr-2">
+                
             </div>
-            <div class="card col-xl-3 col-lg-4 col-md-5 col-sm-10 text-center text-white bg-transparent border-0 ">
-                <h4 class="card-header border-0">Portfolio</h4>
-                <h6>HTML/CSS</h6>
-                <div class="card-body  card4 p-0">
-                    <img src="/images/work/portfolio.jpg" class="card-img" alt="...">
-                    <a href="https://fot28.github.io/Week-2-challenge/" target="_blank" class="btn btn-danger m-2">Check it out</a>
-                </div>
+        </section>
+        <!-- End Skills section -->
+
+        
+        <!-- About me and contact form section -->
+        <section class="container-fluid" id="about/contact">
+            <div class="row">
+
             </div>
-            <div class="card col-xl-3 col-lg-4 col-md-5 col-sm-10 text-center text-white bg-transparent border-0 ">
-                <h4 class="card-header border-0">Coming soon</h4>
-                <h6>Coming soon</h6>
-                <div class="card-body  card4 p-0">
-                    <img src="/images/work/e-comerce.jpg" class="card-img" alt="...">
-                    <a href="#" target="_blank" class="btn btn-danger m-2">Check it out</a>
-                </div>
-            </div>
-            <div class="card col-xl-3 col-lg-4 col-md-5 col-sm-10 text-center text-white bg-transparent border-0 ">
-                <h4 class="card-header border-0">Coming soon</h4>
-                <h6>Coming soon</h6>
-                <div class="card-body  card4 p-0">
-                    <img src="/images/work/login.jpg" class="card-img" alt="...">
-                    <a href="#" target="_blank" class="btn btn-danger m-2">Check it out</a>
-                </div>
-            </div>
-            <div class="card col-xl-3 col-lg-4 col-md-5 col-sm-10 text-center text-white bg-transparent border-0 ">
-                <h4 class="card-header border-0">Coming soon</h4>
-                <h6>Coming soon</h6>
-                <div class="card-body  card4 p-0">
-                    <img src="/images/work/calculator.jpg" class="card-img" alt="...">
-                    <a href="#" target="_blank" class="btn btn-danger m-2">Check it out</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Work section -->
-
-
-    <!-- Skills section -->
-    <div class="container-fluid" id="skills">
-        <div class="row">
-
-        </div>
-    </div>
-    <!-- End Skills section -->
-
-    
-    <!-- About me and contact form section -->
-    <div class="container-fluid" id="about/contact">
-        <div class="row">
-
-        </div>
-    </div>
-    <!-- End About me and contact form section -->
-
+        </section>
+        <!-- End About me and contact form section -->
+    </main>
 
     <!-- Footer section -->
-    <div class="container-fluid">
+    <footer class="container-fluid">
         <div class="row">
 
         </div>
-    </div>
+    </footer>
     <!-- End Footer section -->
 
 
