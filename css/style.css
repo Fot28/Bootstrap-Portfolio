@@ -20,3 +20,8 @@ body{
 .card-header{
     color: rgb(185, 118, 31);
 }
+
+.skill-card{
+    max-width: 12rem;
+    
+}
