@@ -8,11 +8,14 @@ body{
 
 
 
-.jumbotron{
+/* .jumbotron{
     background-image: url(/images/Hero-banner/Banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
+ */
 
-
+.card-header{
+    color: rgb(185, 118, 31);
+}
