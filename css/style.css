@@ -20,10 +20,3 @@ body{
 .card-header{
     color: rgb(185, 118, 31);
 }
-
-/* I wasn't able to over-ride it with bootstrap classes on small devices */
-/* @media (max-width: 425px) {
-    .prof-avatar {
-      max-width: 70%;
-    }
- } */
