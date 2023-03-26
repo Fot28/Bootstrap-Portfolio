@@ -1,5 +1,5 @@
 body{
-    background-image: url(/images/Main/main.jpg);
+    background-image: url(../images/Main/main.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,7 +7,7 @@ body{
 }
 
 .jumbotron{
-    background-image: url(/images/Hero-banner/Banner.jpg);
+    background-image: url(../images/Hero-banner/Banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
