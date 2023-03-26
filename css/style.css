@@ -1,3 +1,4 @@
+/* Body styling */
 body{
     background-image: url(../images/Main/main.jpg);
     background-position: center center;
@@ -6,6 +7,7 @@ body{
     background-attachment: fixed;
 }
 
+/* Hero section styling */
 .jumbotron{
     background-image: url(../images/Hero-banner/Banner.jpg);
     background-repeat: no-repeat;
@@ -13,18 +15,17 @@ body{
     background-position: center center;
 }
 
-.prof-avatar{
-    max-width: 70%;
-}
-
+/* All card header font colors */
 .card-header{
     color: rgb(185, 118, 31);
 }
 
+/* Skill section styling */
 .skill-card{
     max-width: 8rem;
 }
-
+ 
+/* Footer styling */
 .box-shadow-hover:hover {
     box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.25);
     background-color: antiquewhite;
